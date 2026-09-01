@@ -6,7 +6,7 @@ public class frequency_Character {
 	  
 	public static void main(String[] args) {
 		
-		   
+		   //veera
         String s="veerababu";
         
         char[]ch=s.toCharArray();
