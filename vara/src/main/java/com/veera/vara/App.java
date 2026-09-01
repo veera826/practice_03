@@ -5,6 +5,6 @@ package com.veera.vara;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Worlddd!");
+        System.out.println("Hello Worlddd!s");
     }
 }
