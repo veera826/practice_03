@@ -5,6 +5,17 @@ package com.veera.vara;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Worlddd!s");
+       
+    	String s="veerababu";
+    	
+    	String s1="";
+    	
+    	for(int i=s.length()-1;i>=0;i--) {
+    		
+    		s1+=s.charAt(i);
+    		
+    	}
+    	
+    	System.out.println(s1);
     }
 }
