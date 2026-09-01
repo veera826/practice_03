@@ -10,6 +10,82 @@
   <name>vara</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  
+  
+   <dependencies>
+  
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.9.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.23.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
+
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
+
+
+<dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version> <!-- Use the latest version if needed -->
+        <scope>test</scope>
+    </dependency>
+    
+    
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.15.0</version>
+    </dependency>
+    
+    
+    <dependency>
+
+  <groupId>org.junit.jupiter</groupId>
+
+  <artifactId>junit-jupiter-api</artifactId>
+
+  <scope>test</scope>
+
+</dependency>
+
+<!-- Optionally: parameterized tests support -->
+
+<dependency>
+
+  <groupId>org.junit.jupiter</groupId>
+
+  <artifactId>junit-jupiter-params</artifactId>
+
+  <scope>test</scope>
+
+</dependency>
+
+
+  
+  </dependencies>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,21 +103,11 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  
+  
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <!-- Optionally: parameterized tests support -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-
+  
+  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
