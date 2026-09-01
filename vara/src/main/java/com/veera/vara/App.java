@@ -6,7 +6,7 @@ package com.veera.vara;
 public class App {
     public static void main(String[] args) {
        
-    	String s="veerababu";
+    	String s="veerababuu";
     	
     	String s1="";
     	
