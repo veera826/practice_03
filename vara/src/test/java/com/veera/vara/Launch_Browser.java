@@ -27,7 +27,6 @@ public class Launch_Browser {
 		ac.moveByOffset(10,10).click().perform();
 		 
 		 
-		 
 		 TakesScreenshot ts=(TakesScreenshot)driver;
 		 
 		 File src=ts.getScreenshotAs(OutputType.FILE);
@@ -35,6 +34,9 @@ public class Launch_Browser {
 		  File destfile=new File("./screenshots5/veera"+".png");
 		  
 		  FileUtils.copyFile(src, destfile);
+		  
+		  
+		  
 		  
 		  
 		  
