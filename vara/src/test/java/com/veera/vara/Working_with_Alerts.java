@@ -30,14 +30,7 @@ public class Working_with_Alerts {
     String expected="Are you sure?";
 
     Assert.assertEquals(actual, expected);
-
-
-	
-	
-		
-		
-
-		
+    
 
 	}
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="methods" thread-count="2">
+
+
+    <test name="My Tests">
+
+        <classes>
+            <class name="com.veera.vara.Orange_Hrm"/>
+        </classes>
+
+    </test>
+
+</suite>
+

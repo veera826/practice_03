@@ -34,7 +34,7 @@ public class frequency_Character {
         for(char key:hm.keySet()) {
         	
         	
-        	if(hm.get(key)>=1) {
+        	if(hm.get(key)>1) {
         		
         		System.out.println(key+" "+hm.get(key));
         	}

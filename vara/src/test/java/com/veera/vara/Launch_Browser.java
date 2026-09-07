@@ -31,7 +31,7 @@ public class Launch_Browser {
 		 
 		 File src=ts.getScreenshotAs(OutputType.FILE);
 		 
-		  File destfile=new File("./screenshots5/veeraa"+".png");
+		  File destfile=new File("./screenshots5/veeraaa"+".png");
 		  
 		  FileUtils.copyFile(src, destfile);
 		  
